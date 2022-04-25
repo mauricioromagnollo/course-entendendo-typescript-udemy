@@ -1,0 +1,20 @@
+{
+  "name": "code-night-theme",
+  "version": "1.0.0",
+  "description": "An theme to Visual Studio Code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x0n4d0/code-night-theme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/x0n4d0/code-night-theme/issues"
+  },
+  "homepage": "https://github.com/x0n4d0/code-night-theme#readme"
+}
