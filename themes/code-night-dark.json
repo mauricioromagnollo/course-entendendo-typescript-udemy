@@ -15,18 +15,26 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#546E7A"
 			}
 		},
 		{
 			"name": "Variables",
 			"scope": [
-				"variable",
-				"string constant.other.placeholder"
+				"variable"
 			],
 			"settings": {
-				"foreground": "#615ca8"
+				"foreground": "#f4f4f6"
+			}
+		},
+		{
+			"name": "Constants",
+			"scope": [
+				"string constant.other.placeholder",
+				"constant.other.color"
+			],
+			"settings": {
+				"foreground": "#6ad1fa"
 			}
 		},
 		{
@@ -135,7 +143,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#89DDFF"
 			}
 		},
 		{
@@ -166,7 +174,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#cd00f1"
 			}
 		},
 		{
@@ -220,7 +228,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#82AAFF"
+				"foreground": "#00ee24"
 			}
 		},
 		{
@@ -230,7 +238,7 @@
 				"variable.function.constructor"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#00ee24"
 			}
 		},
 		{

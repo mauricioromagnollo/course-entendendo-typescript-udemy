@@ -1,20 +1,32 @@
 {
   "name": "code-night-theme",
-  "version": "1.0.0",
-  "description": "An theme to Visual Studio Code.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "0.0.1",
+  "displayName": "Code Night Theme",
+  "description": "Dark theme to Visual Studio Code. ",
+  "author": "Maurício Romagnoli <x0n4d0>",
+  "homepage": "https://github.com/x0n4d0/code-night-theme#readme",
+  "license": "MIT",
+  "keywords": [
+    "visual-studio-code",
+    "dark-theme"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/x0n4d0/code-night-theme.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/x0n4d0/code-night-theme/issues"
+  "engines": {
+    "vscode": "^1.65.0"
   },
-  "homepage": "https://github.com/x0n4d0/code-night-theme#readme"
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Code Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/code-night-dark.json"
+      }
+    ]
+  }
 }
