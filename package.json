@@ -1,0 +1,26 @@
+{
+  "name": "ddd-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx vitest run",
+    "test:watch": "npx vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauricioromagnollo/ddd-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauricioromagnollo/ddd-nodejs/issues"
+  },
+  "homepage": "https://github.com/mauricioromagnollo/ddd-nodejs#readme",
+  "devDependencies": {
+    "@types/node": "^20.1.0",
+    "typescript": "^5.0.4",
+    "vitest": "^0.31.0"
+  }
+}
